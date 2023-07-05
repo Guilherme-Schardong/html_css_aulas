@@ -1,0 +1,174 @@
+live server
+
+
+as tags podem ou nao ter corpo mais comumente elas tem corpo
+
+<escrever>  abertura 
+	
+</escreve> fechamento
+
+as tagas tambem podem ter atributos
+esses atributos podem ou nao ter valor assim 
+como podem tem mais de um atributo
+
+<escrever atributos >   
+	
+</escreve >
+
+
+todos arquivos html precisam ter a
+tag
+
+<!doctype html>
+
+o html nao se importa com o case sensitive
+ou seja pode ser maiusculo ou minusculo
+
+
+depois vem a tag raiz que é
+
+<html>
+
+</html>
+
+ 
+depois vem a tag de cabeçalho ela nao aparece ela 
+serve pra especificar o que tem dentro da sua pagina html
+uma tag comum dentro dela é o title que é o titulo da pagina
+meta dados
+<head>
+	<title> </title>
+</head>
+
+
+outra tag importante de se ter é a tag charset
+que é a codificação de caracteres
+tag 
+ <meta charset="utf-8">
+
+tags meta nao tem corpo
+
+
+tag body
+é tudo que voce ve na sua pagina
+obrigatorio
+
+<body>
+
+</body>
+
+
+validação html  w3c
+
+
+
+tag lang='pt-BR'
+
+
+atalhos de criação
+
+!
+loren
+
+
+<span>  
+<br>  quebra de linha
+h1  titulo
+p  paragrafo
+
+b negrito
+
+atributos sem valor o navegador poe o valor booleano true
+
+meta name= viewport  janela virtual para renderizar a tela para 
+dispositivos moveis  sem a tag o janela virtual fica  maior que a tela do celular
+
+id 
+
+em qualque tag voce pode por um id  é um identificador unica na pagina
+nao pode ser repetido
+
+
+class
+
+também são identificadores de elementos mas podem ser repetidos e 
+elementos podem ter mais de uma classe
+
+style
+
+essa tag fica no head e é nela que voce passa o css da pagina
+
+no css 
+
+ h1 {} dentro das chaves voce passa o que quer fazer com o elemento
+por exemplo background: red
+
+no css existe especificidade um pode se sobrpor ao outro e nesse caso o que vale é 
+o ultimo a ser chamado
+
+para acessar o id no css usa se o # e o id
+
+para acessar class no css usa se o . e o class
+
+é ideal voce ulitilizar calss para estilo e nao id 
+
+
+
+cabeçalhos
+
+são importantes para buscadores eles que sao vasculhados por
+buscadores como google
+
+é importante para semanatica da tela por exemplo um leitor 
+de texto para cegos nao vai descrever o tamanho das letras 
+
+
+h1                     ordem de importancia decresente
+h2                     
+h3
+h4
+h5
+h6  
+
+
+
+display de bloco  utilizam a largura total da tela
+ e dão uma nova linha
+
+i italico
+
+em emfase 
+
+b e strong negrito 
+
+mas strong é semantica voce esta falando mais forte pense assi
+
+b é feita pra texto
+
+a href=""  passa link ou arquivo  
+
+targe="" exepecifica como abrir o link passado
+_blank em uma nova guia
+
+img  src=""  link ou a imagen nos seus arquivos
+alt = ""  texto altenativo da imagaem para explicar a 
+imagem ao leitor de texto
+
+<del> tag de errata  semANTICA	
+
+ins  tag de inserir  semantica
+
+s  riscado fisico
+
+u sublinhado fisico
+
+sup subnir   2 elevado a 2
+
+<sub desce  exempl h2o
+
+q citação em texto
+
+
+<blockquote> citação fora do paragrafo
+
+<hr> nao tem corpo e usa um bloco inteiro
