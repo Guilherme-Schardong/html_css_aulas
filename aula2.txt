@@ -1,0 +1,103 @@
+
+head
+link rel='stylesheet' href="style.css"
+head
+ body
+	header   cabeçalho
+	main      conteudo principal
+	footer    roda pe
+
+
+ body
+
+
+
+
+
+style.css
+
+body{
+
+	heigth: 100vh;
+	box sizing border box;
+    background-color: black;
+    color: white;
+}
+
+
+
+resete de css
+*{		o astericos selecio todos os elementos
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+flexbox
+para facilitar o uso de elementos lado a lado
+
+para usar essa facilidade precisar usar um comando css
+no container pai  normalmente main
+display.flex
+
+align-itens:center
+
+box model
+
+criando seções
+
+tag section
+
+
+craindo espaço entre elementos da flexbox
+
+justify-content: space-between
+
+
+
+classe do main
+
+margin: 10%
+
+classe pro titulo
+font-size: 36
+
+classe para seção
+
+width: 615 px
+
+ padrao de nome de classes pega o nome do pai _ _ e o nome 
+da classe
+
+
+
+importação de fonts
+
+google fonts
+
+copia e cola no css
+
+e pra usar no elemento voce tem que indicar que esta usando
+
+font-family: copia e cola do site
+
+
+
+
+
+
+
+figma
+
+sites uteis
+
+https://color.adobe.com/pt/create/color-wheel
+
+https://colorhunt.co/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+alt + z  para nao estorar

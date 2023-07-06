@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Martian+Mono&family=Pacifico&display=swap');
+
+.titulo__enfase{
+    color: aqua;
+}
+.artigo_principal{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20%;
+    justify-content: space-between;
+    
+}
+
+.artigo_pricipal__textoPrincipal__titulo{
+    font-size: 36px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.artigo_pricipal__textoPrincipal__paragrafo{
+    font-size: 24px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.artigo_pricipal__textoPrincipal__link{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.artigo_principal__texto_principal{
+    width: 615px;
+}
+
+body{
+    background-color: #8DDBF2;
+    color: aliceblue;
+    height: 100vh;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
