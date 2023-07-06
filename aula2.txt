@@ -99,5 +99,6 @@ https://colorhunt.co/
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 
 alt + z  para nao estorar
