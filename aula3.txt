@@ -1,0 +1,160 @@
+como colocar no texto  <>  por exemplo
+
+
+alguns simbolos podem gerar problermas no pois causam confuam 
+com a html da pagina
+
+para isso existe html entities
+
+< pode ser usado &lt  que é igual a less than
+
+> pode ser usado &gt que é igual a greather than
+
+&nbsp;  espaço em branco
+
+&reg; marca registrada
+
+&copy; copyright
+
+&trade; trade mark
+
+&euro; euro
+
+&pound; libra
+
+&yen; yen
+
+&cent; cent
+
+&empty; vazio
+
+&sum; soma
+
+&Delta; delta
+
+&larr;  seta para esquerda lefth arrow
+
+&uarr; seta para cima up arrow
+
+&rarr; seta para direita right arrow
+
+&darr; seta para baixo down arrow
+
+lista de entities
+https://www.freeformatter.com/html-entities.html
+
+e para emojis 
+
+&#x seguindo do codigo hexadecimal do emoji
+
+lista de emoji
+https://emojipedia.org/
+
+
+
+
+
+
+
+imagens
+
+google imagens /ferramentas/direitos de uso
+
+marcadas para reutilização com modificação
+
+marcadas para reutilizadaçao
+
+sites para imagens 
+https://unsplash.com/pt-br
+https://www.pexels.com/pt-br/
+https://br.freepik.com/
+https://www.rawpixel.com/
+https://pixabay.com/pt/
+https://libreshot.com/
+https://commons.wikimedia.org/wiki/Main_Page
+
+
+ferramenta gratuita para formatação de imagens
+https://www.gimp.org/
+
+
+
+
+para web formatos comumns de imagens são utilizados 
+são o JPEG bom para imagens grandes  e  o PNG  transparencia qualidade melhor
+
+gif transparencia e animação
+
+1500 de largura ja é um bom tamanho para site  e 1000 de altura é bom
+para fundo de site
+
+650 também é uma boa ideia de tamanho para usar em conteudo
+
+resolução ate 50 é aceitavel e de maximo 72
+
+
+dentro da tag img voce pode usar o ctrl + espaço e ele lista os arquuivos na pasta
+
+
+sites para redimencionar imagens
+https://www.img2go.com/pt/result#j=1b3661a8-b64c-4ae3-947d-ff879b70a4c9
+
+https://www.iloveimg.com/pt/redimensionar-imagem#resize-options,pixels
+
+
+
+icones de favoritos
+
+favicon
+
+site repositorio de icon 
+https://www.iconarchive.com/
+
+site pra fazer favicon
+
+https://www.favicon.cc/
+
+site para transformar ima texto ou emoji em favicon
+https://favicon.io/
+
+
+link favicon no head
+
+
+
+tags obsoletas semantica
+
+bgcolor
+center
+font
+marquee
+big 
+
+https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html
+
+
+tag negrito e itaLICO 
+
+strong       b esta em desuso
+ em          i esta em desuso
+ins          u esta em desuso
+e o bonus mark para marcar texto
+
+
+ctrl  + shift + p no buscador abb   e entao a tag que voce que ser colocada
+na volta do texto que esta selecionado
+
+estilos pontuais podem ser colocados em tags do html com o paramentro
+style=
+
+texto pequeno  tag small
+
+tag para codigo de programação usa se code e antes dele o pre pra 
+deixar com cara de codigo
+
+tag de abreviação abbr title = ''
+
+tag para texto invertido  
+bdo dir= ltr  ou rtl   
+
+
