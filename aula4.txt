@@ -1,0 +1,105 @@
+
+listas OL e UL
+
+ol order list lista ordenanda  ela propria se ordena numericamente
+
+dentro dela cada item é um li dentro de ol
+
+apartir do html5 o \li é opcional
+
+parametro type em ol  ordena qual tipo da lista se quer começar 
+em um item diferente passar o parametrop start é numerico
+
+type 1  numerica
+type A ou a alfabetica
+type I ou i romanos numeros
+
+
+ul unorder list listas nao ordenadas
+
+type disc  bola preta
+type circle bambole
+type square quadrado
+
+atalho segurando alt e clicando se muda todas as linhas selecionadas 
+ao mesmo tempo
+
+dl definition list lista de definição
+dt
+dd
+ 
+ <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+
+ancoras
+
+rel= external     para avisar que é um site de fora dos seus no link
+
+rel= next  next é para criar um mecanismo de navegação para 
+os buscadores se acharem no seu site
+
+rel= previ previ é para melhorar a navegação na
+ sua pagina pelos m,ecanismos de busca
+
+rel= nofolow  rel é para o mecanicsmo de busca e o no folow é que voce nao da 
+seu aval sobre o conteudo do site
+
+
+../  ponto barra é na propria pasta. e ponto ponto barra e na pasta anterior
+
+
+imagens
+
+imagens dinamicas
+
+utilizando a tag  
+
+picture   e  dentro dela a img para imagem 
+e a acima  a tag source
+
+
+ <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+imagem p  300 por 300
+imagem m  700 por 700
+imagem g  1000 por 1000
+a ordem das tags de source importa
+
+audio no site 
+
+utilizamos a tag  audio  e com os paramentros autoplas pra tocar automaticamente e controls 
+para aparecer os controles do audio
+
+ou tbm
+
+<audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>	
+ nessa segunda opação temos o pre load  com as opções auto metadata e none
+auto nao é muito  recomendado pois atrapalha no carregamento do site
+metadata ira trazer algumas informações sobre o audio
+
+
+e se quiser tem a opção loop para repetir os audios quando acabar
+
+formatos validos mp3 ogg wav
+
+downloads
+
+vamos utilizar a tag 'a'  e passar o parametro download e por fim type 
+no caso vamos utilizar aplication/pdf
+
+pegamos do site que organiza a tipagem
+https://www.iana.org/assignments/media-types/media-types.xhtml
