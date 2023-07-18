@@ -1,0 +1,44 @@
+padroes de videos suportados para html5 
+
+mp4/m4v  webm  ogv
+
+
+
+sofware de conversao de videos
+
+https://handbrake.fr/
+
+site pra conversao
+
+https://video-converter.com/pt/
+https://video.online-convert.com/pt/converter-para-ogv
+
+
+de preferencia nao hospedar dentro do prorpio site só videos 
+abaixo de 1080 p
+
+
+a tag simples nao é o ideal
+
+
+deve seguir o padrão de imagens com varios tipos de formatos
+nos sources
+
+voce pode colocar uma imagen ao inves de o video parado para videos
+parado com a tag poster
+
+as tags autoplay podem ser utilizada mas nao funciona em todos navegadores 
+e outra tag é a loop
+
+o problema de hospedar videos em seu servidor é o auto consumo de 
+dados
+
+
+hospedando videos do youtube o prorpio you tube gera os codigos pra voce
+
+animation reel pesquisa
+
+hoispedagem youtube vimeo
+
+
+o css segue a ordem de força in line depois interno e por ultimo externo
