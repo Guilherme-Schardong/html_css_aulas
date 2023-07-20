@@ -1,0 +1,17 @@
+midia query
+
+ cuidado a sintaxe pois se errar os espaços
+por exemplo ja nao funciona o media 
+
+
+mobile first é um novo modelo de desenvolvimento de tela 
+em que as empresas priorisam as regras aos celulares
+e depois adamptam para dispositivos maiores
+
+sempre que voce trabalha com max-width trabalha dos maiores 
+para os menores e com min-width dos menores para os maiores
+
+passando em dois criterios voce trabalha com intervalos
+
+regras que nao estao no media query no topo e as media querys
+no final

@@ -1,0 +1,36 @@
+extensao color zilla
+
+https://color.adobe.com/pt/create/color-wheel
+
+salvar imagem e depois extrarir gradiente de uma imagen
+
+para criar o degrade ao inves de setar o background color 
+seta o background image com linear gradiente
+background-attachment: fixed; para fixar o fundo
+apos as cores pode passar a porcentagem de ocupação delas na
+tela
+
+regra de desing no maximo 5 cores e minimo 3 cores
+
+tambem tem o radial gradiente mas dentro se usa o circle
+
+	
+
+margin auto centraliz apor padrao o conteudo
+
+border radius para arendondar os cantos
+
+box shadow: lateral pixel, baixo pixel, espalhamento pixel, cor
+
+padding pixel pra deixar espaço interno
+
+
+atividade sugerir locai para criar degrade apartir de uma 
+imagen
+
+atividade 2 
+criar um modelo apartir do feito em aula
+
+atividade 3
+
+utilizar o midia query para melhorar o site anteriro
